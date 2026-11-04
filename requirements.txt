@@ -1,0 +1,11 @@
+# tested with Python 3.11
+numpy<2
+onnx==1.23.2
+onnxruntime==1.31.1
+huggingface_hub==0.24.7
+tokenizers==0.19.1
+transformers==4.42.4   # only imported by optimum-onnx; no model of it is used
+pillow==13.0.0
+# these two provide the graph merge; install them WITHOUT their dependencies (those pull in a whole machine-learning stack that is
+# not needed):
+#   pip install optimum==2.1.0 optimum-onnx==0.1.0 --no-deps

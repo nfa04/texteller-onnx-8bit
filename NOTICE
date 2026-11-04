@@ -1,0 +1,7 @@
+texteller-onnx-8bit
+
+The model files made by this repository are conversions (8-bit quantisation, and the merging of two graphs into one) of
+TexTeller 3.0, https://github.com/OleehyO/TexTeller (Apache License 2.0), published at https://huggingface.co/OleehyO/TexTeller.
+TexTeller is the work of OleehyO and its contributors. This repository is not made or endorsed by them.
+
+The scripts in this repository are licensed under the Apache License 2.0 as well (see LICENSE).
